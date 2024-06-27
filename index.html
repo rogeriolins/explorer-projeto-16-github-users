@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub Users - Favorites</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
 
@@ -14,7 +22,7 @@
       <header>
         <h1>GitHub Favorites</h1>
         <div class="search">
-          <label for="input-search">Usuário do Github</label>
+          <label class="sr-only" for="input-search">Usuário do Github</label>
           <input
             id="input-search"
             type="text"
@@ -34,13 +42,13 @@
         </thead>
         <tbody>
           <tr>
-            <td>
+            <td class="user">
               <img
                 src="https://github.com/rogeriolins.png"
                 alt="Foto de Rogério Lins"
               />
             </td>
-            <td class="users">
+            <td class="user">
               <a href="https://github.com/rogeriolins">
                 <p>Rogerio Lins</p>
                 <span>rogeriolins</span>
@@ -49,17 +57,17 @@
             <td class="repositors">36</td>
             <td class="followers">2</td>
             <td>
-              <button>&times;</button>
+              <button class="remove">&times;</button>
             </td>
           </tr>
           <tr>
-            <td>
+            <td class="user">
               <img
                 src="https://github.com/diego3g.png"
                 alt="Foto de Diego Fernandes"
               />
             </td>
-            <td class="users">
+            <td class="user">
               <a href="https://github.com/diego3g">
                 <p>Diego Fernandes</p>
                 <span>diego3g</span>
@@ -68,7 +76,7 @@
             <td class="repositors">2306</td>
             <td class="followers">222</td>
             <td>
-              <button>&times;</button>
+              <button class="remove">&times;</button>
             </td>
           </tr>
         </tbody>
