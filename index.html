@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Users - Favorites</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module" src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>GitHub Favorites</h1>
+        <div class="search">
+          <label for="input-search">Usuário do Github</label>
+          <input
+            id="input-search"
+            type="text"
+            placeholder="Usuário do GitHub"
+          />
+          <button>&plus;</button>
+        </div>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositórios</th>
+            <th>Seguidores</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="https://github.com/rogeriolins.png"
+                alt="Foto de Rogério Lins"
+              />
+            </td>
+            <td class="users">
+              <a href="https://github.com/rogeriolins">
+                <p>Rogerio Lins</p>
+                <span>rogeriolins</span>
+              </a>
+            </td>
+            <td class="repositors">36</td>
+            <td class="followers">2</td>
+            <td>
+              <button>&times;</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="https://github.com/diego3g.png"
+                alt="Foto de Diego Fernandes"
+              />
+            </td>
+            <td class="users">
+              <a href="https://github.com/diego3g">
+                <p>Diego Fernandes</p>
+                <span>diego3g</span>
+              </a>
+            </td>
+            <td class="repositors">2306</td>
+            <td class="followers">222</td>
+            <td>
+              <button>&times;</button>
+            </td>
+          </tr>
+        </tbody>
+        <!-- <tfoot></tfoot> -->
+      </table>
+    </div>
+  </body>
+</html>
