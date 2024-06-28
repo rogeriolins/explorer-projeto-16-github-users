@@ -139,6 +139,8 @@ td.user img {
 
   object-fit: cover;
   border-radius: 50%;
+
+  box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
 }
 
 td.user a {
