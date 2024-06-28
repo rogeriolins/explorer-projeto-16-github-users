@@ -41,7 +41,7 @@ button {
 }
 
 #app {
-  max-width: 50rem;
+  max-width: 500px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -97,12 +97,13 @@ table * {
 }
 
 table th {
-  background-color: var(--color-primary);
+  background: var(--color-primary);
   text-align: left;
   font-weight: normal;
   padding: 1.5rem;
 }
 
+/* Pseudo-Class */
 table th:first-child {
   border-top-left-radius: 0.4rem;
 }
@@ -149,10 +150,14 @@ td.user a p {
 }
 
 td .remove {
-  background-color: none;
-  border: none;
-
+  background-color: transparent;
   color: red;
+
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0.6rem;
+
+  border: none;
 
   cursor: pointer;
 }
