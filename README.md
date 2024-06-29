@@ -19,7 +19,7 @@ Projeto para a formação Fullstack da Rocketseat para ensino de tecnologias WEB
 <br>
 
 <p align="center">
-  <img alt="Projeto Explorer" src=".github/my-cover-projeto15.jpg" width="100%">
+  <img alt="Projeto Explorer" src=".github/my-cover-project16.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
